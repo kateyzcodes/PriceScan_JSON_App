@@ -16,7 +16,7 @@ struct ScanListView: View {
       List {
         ForEach(locationScans) {
           location in LocationView(location: location)
-          ForEach(location.scans){
+          ForEach(location.scans.sorted(by: { $0 < $1 })){
             priceScan in ScanView(priceScan: priceScan)
           }
         }
