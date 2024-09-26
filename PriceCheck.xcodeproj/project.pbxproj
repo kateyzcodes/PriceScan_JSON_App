@@ -15,6 +15,8 @@
 		E7D5EE302532590500C17A92 /* scan_api_data.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE2F2532590500C17A92 /* scan_api_data.json */; };
 		E7D5EE342532599C00C17A92 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE332532599C00C17A92 /* Helper.swift */; };
 		E7D5EE3725325A7000C17A92 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE3625325A7000C17A92 /* Location.swift */; };
+		FF5FB8402CA5E7CC00C763F1 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FB83F2CA5E7C700C763F1 /* ScanView.swift */; };
+		FF5FB8422CA5E8A800C763F1 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5FB8412CA5E8A300C763F1 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E7D5EE2F2532590500C17A92 /* scan_api_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scan_api_data.json; sourceTree = "<group>"; };
 		E7D5EE332532599C00C17A92 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E7D5EE3625325A7000C17A92 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		FF5FB83F2CA5E7C700C763F1 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		FF5FB8412CA5E8A300C763F1 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		E7D5EE222531FE3000C17A92 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FF5FB8412CA5E8A300C763F1 /* LocationView.swift */,
+				FF5FB83F2CA5E7C700C763F1 /* ScanView.swift */,
 				E7D5EE072531EA2500C17A92 /* ScanListView.swift */,
 			);
 			path = Views;
@@ -179,7 +185,9 @@
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
 				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
+				FF5FB8422CA5E8A800C763F1 /* LocationView.swift in Sources */,
 				E7D5EE342532599C00C17A92 /* Helper.swift in Sources */,
+				FF5FB8402CA5E7CC00C763F1 /* ScanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

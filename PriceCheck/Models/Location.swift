@@ -12,23 +12,21 @@ struct Location: Identifiable, Codable, Comparable {
   var id = UUID()  // to conform to Identifiable protocol
   // Additional properties, etc.
   
+  let name: String
+  let scans: [PriceScan]
   
-  
-  
-  
-  
-  
-  
-  
-  
+  enum CodingKeys : String, CodingKey {
+    case name = "location"
+    case scans = "scans"
+  }
   
   // To conform to Comparable protocol
   static func < (lhs: Location, rhs: Location) -> Bool {
-    
+    return lhs.name < rhs.name
   }
   
   static func == (lhs: Location, rhs: Location) -> Bool {
-    
+    return lhs.name == rhs.name
   }
   
   // MARK: Example for SwiftUI
